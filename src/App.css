@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap");
+@import "tailwindcss";
+
+/* enables the dark: variant with a class on <html> */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* light (default) */
+:root {
+  --bg: #DCD6F5;
+  --card: #FFFFFF;
+  --line: #C3BAEA;
+  --ink: #2B1F5C;
+  --mute: #5B5486;
+  --accent: #5A35D6;
+  --surface: #EAE6FA;
+  --good: #1E7F37;
+}
+
+/* dark */
+.dark {
+  --bg: #0B0A10;
+  --card: #1B1A22;
+  --line: #2F2C3B;
+  --ink: #F4F2FA;
+  --mute: #B9B5C9;
+  --accent: #A58BFF;
+  --surface: #3A2A7C;
+  --good: #7BE08A;
+}
+
+/* utilities: bg-bg, bg-card, border-line, text-ink, text-mute, text-accent … */
+@theme inline {
+  --color-bg: var(--bg);
+  --color-card: var(--card);
+  --color-line: var(--line);
+  --color-ink: var(--ink);
+  --color-mute: var(--mute);
+  --color-accent: var(--accent);
+  --color-surface: var(--surface);
+  --color-good: var(--good);
+
+  /* brand: same in both themes */
+  --color-brand: #6D3FE8;
+  --color-brand-light: #8A63F5;
+  --color-brand-deep: #3A2A7C;
+  --color-brand-night: #1F1647;
+  --color-brand-lavender: #C5BCF0;
+  --color-star: #F5B301;
+
+  --font-sans: "Tajawal", sans-serif;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans);
+}
