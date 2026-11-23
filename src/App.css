@@ -6,26 +6,26 @@
 
 /* light (default) */
 :root {
-  --bg: #DCD6F5;
-  --card: #FFFFFF;
-  --line: #C3BAEA;
-  --ink: #2B1F5C;
-  --mute: #5B5486;
-  --accent: #5A35D6;
-  --surface: #EAE6FA;
-  --good: #1E7F37;
+  --bg: #dcd6f5;
+  --card: #ffffff;
+  --line: #c3baea;
+  --ink: #2b1f5c;
+  --mute: #5b5486;
+  --accent: #5a35d6;
+  --surface: #eae6fa;
+  --good: #1e7f37;
 }
 
 /* dark */
 .dark {
-  --bg: #0B0A10;
-  --card: #1B1A22;
-  --line: #2F2C3B;
-  --ink: #F4F2FA;
-  --mute: #B9B5C9;
-  --accent: #A58BFF;
-  --surface: #3A2A7C;
-  --good: #7BE08A;
+  --bg: #0b0a10;
+  --card: #1b1a22;
+  --line: #2f2c3b;
+  --ink: #f4f2fa;
+  --mute: #b9b5c9;
+  --accent: #a58bff;
+  --surface: #3a2a7c;
+  --good: #7be08a;
 }
 
 /* utilities: bg-bg, bg-card, border-line, text-ink, text-mute, text-accent … */
@@ -40,12 +40,13 @@
   --color-good: var(--good);
 
   /* brand: same in both themes */
-  --color-brand: #6D3FE8;
-  --color-brand-light: #8A63F5;
-  --color-brand-deep: #3A2A7C;
-  --color-brand-night: #1F1647;
-  --color-brand-lavender: #C5BCF0;
-  --color-star: #F5B301;
+  --color-brand: #6d3fe8;
+  --color-brand-dark: #5a30cc;
+  --color-brand-light: #8a63f5;
+  --color-brand-deep: #3a2a7c;
+  --color-brand-night: #1f1647;
+  --color-brand-lavender: #c5bcf0;
+  --color-star: #f5b301;
 
   --font-sans: "Tajawal", sans-serif;
 }
